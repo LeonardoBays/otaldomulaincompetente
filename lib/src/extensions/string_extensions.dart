@@ -1,3 +1,7 @@
 extension StringExtension on String {
-  String get pizzas => replaceAll(RegExp(r'\S'), '🍕');
+  String replaceCharactersBy(String value) => replaceAll(RegExp(r'\S'), value);
+
+  String get pizzas => replaceCharactersBy('🍕');
+
+  String get skulls => replaceCharactersBy('💀');
 }

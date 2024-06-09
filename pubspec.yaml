@@ -1,10 +1,10 @@
 name: otaldomulaincompetente
 description: A starting point for Dart libraries or applications.
-version: 1.0.0
+version: 2.0.0
 homepage: https://github.com/LeonardoBays/otaldomulaincompetente
 
 environment:
-  sdk: '>=2.17.5 <3.0.0'
+  sdk: '>=2.17.5 <4.0.0'
 
 # dependencies:
 #   path: ^1.8.0
